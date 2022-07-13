@@ -48,6 +48,6 @@ docker push ibbriggs/feedback-nodejs:v3
 ```
 ## DOCKER RUN 
 ```commandline
-docker run -p 3000:80 --name (name of app) feedback-app -d (image name) ibbriggs/feedback-node:v3
+docker run -p 3000:80 --name (name of app) feedback-app -d (image name) ibbriggs/feedback-node:v>>>>>>> main
 
 ```
