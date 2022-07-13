@@ -1,0 +1,15 @@
+FROM node:14
+
+WORKDIR /app
+
+COPY package.js . #or /app
+
+RUN npm install
+
+COPY . .
+## Not too important
+
+EXPOSE 80
+
+CMD ["node, "server.js"]
+
