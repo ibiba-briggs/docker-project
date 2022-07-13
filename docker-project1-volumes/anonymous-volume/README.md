@@ -37,9 +37,6 @@ First create a repo in docker hub with the same app name
 docker login --username ibbriggs
 
 Dockerhub passwd TO0NIMI2021#eaPrime
-
-docker push ibbriggs/feedback-nodejs:v3
-
 ```
 ## docker tag
 ```commandline
