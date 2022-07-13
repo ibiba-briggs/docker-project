@@ -37,9 +37,6 @@ First create a repo in docker hub with the same app name
 docker login --username ibbriggs
 
 Dockerhub passwd TO0NIMI2021#eaPrime
-
-docker push ibbriggs/feedback-nodejs:v3
-
 ```
 ## docker tag
 ```commandline
@@ -48,6 +45,6 @@ docker push ibbriggs/feedback-nodejs:v3
 ```
 ## DOCKER RUN 
 ```commandline
-docker run -p 3000:80 --name (name of app) feedback-app -d (image name) ibbriggs/feedback-node:v>>>>>>> main
+docker run -p 3000:80 --name (name of app) feedback-app -d (image name) ibbriggs/feedback-node:v3
 
 ```
