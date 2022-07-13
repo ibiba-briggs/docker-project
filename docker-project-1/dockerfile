@@ -2,7 +2,7 @@ FROM node:14
 
 WORKDIR /app
 
-COPY package.js . #or /app
+COPY package.js . 
 
 RUN npm install
 
